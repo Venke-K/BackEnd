@@ -14,7 +14,8 @@ const app = express();
 
 connectDB();
 
-app.use(cors('https://master--resonant-lebkuchen-36da1d.netlify.app/'));
+app.use(cors('https://master--resonant-lebkuchen-36da1d.netlify.app/'
+));
 app.use(express.json());
 
 //Routes
