@@ -1,5 +1,5 @@
 import User from "../models/User.js";
-import bcrypt from './bcryptjs'
+import bcrypt from 'bcryptjs';
 import jwt from "jsonwebtoken";
 import process from "process";
 // import createToken from "../middleware/authMiddleware.js";
